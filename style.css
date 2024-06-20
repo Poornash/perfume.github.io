@@ -1,0 +1,153 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: "Unna", serif;
+    font-weight: 400;
+    font-style: italic;
+    background-color:white;
+
+}
+
+nav {
+    color: white;
+    background-color: black;
+    height: 70px;
+    padding: 10px;
+
+}
+
+.header li,
+h1,
+ul {
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.header ul {
+    margin-left: 70%;
+    justify-content: space-evenly;
+
+}
+
+.header li {
+    color: white;
+    cursor:default;
+    text-decoration: none;
+    position: relative;
+
+}
+
+
+.header li:hover {
+    color: gray;
+    text-decoration: underline;
+}
+
+input {
+    width: 60%;
+    padding: 10px;
+    margin: 30px;
+
+}
+
+.searchBar {
+    text-align: center;
+    padding: 30px;
+
+}
+
+#button {
+    margin: 0;
+    padding: 10px 10px;
+    border-radius: 15%;
+    border-color: none;
+    border: none;
+    background-color: white;
+}
+
+#button:hover {
+    background-color: #b3b6b9f0;
+    cursor:pointer;
+}
+
+.box {
+    background-color:#ffffff;
+    border-width: 2px;
+    border-style: none;
+    display: inline-block;
+    width: 450px;
+    height: 400px;
+    margin: 30px;
+}
+
+.btn {
+    margin-top: 10px;
+    padding: 5px 30px;
+    background-color: black;
+    color: white;
+    font-size: medium;
+    text-transform: uppercase;
+    border: none;
+}
+
+.products {
+    text-align: center;
+}
+
+.about {
+    color: black;
+    text-align: center;
+    padding: 30px;
+
+}
+.about p{
+    margin-top: 20px;
+}
+.contact {
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    padding: 40px 10px;
+    text-align: center;
+    font-size: 30PX;
+    margin-top:0;
+
+}
+
+.contact ul {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex: 1;
+    padding: 20px;
+    min-width: 200px;
+    font-size: 20px;
+    list-style: none;
+
+}
+.contact li:hover{
+    text-decoration: underline;
+    color: grey;
+    cursor:default;
+}
+
+
+.contact div {
+   font-size: small;
+   margin-top: 40px;
+
+}
+.box img{
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+.box:hover img{
+    -webkit-transform: scale(1);
+  transform: scale(1);
+}
